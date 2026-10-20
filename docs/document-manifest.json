@@ -1,0 +1,97 @@
+{
+  "suite": "SentinelVision AI Enterprise Documentation",
+  "version": "1.0.0",
+  "generated_at": "2026-07-17T07:23:14.904439+00:00",
+  "volumes": [
+    {
+      "volume": "01",
+      "title": "Product Requirements Document",
+      "source": "docs/volumes/01-product-requirements.md",
+      "pdf": "01-product-requirements.pdf",
+      "source_sha256": "4fdc5ddab36feee421947f27a5be2d22b10819cfcaf16bbbcc15fd0b8d6a3194",
+      "pdf_sha256": "51bd1873c52090c17b0fabb82e55f80cf565543e7d9da653e7583802b9066d6a",
+      "pdf_size_kb": 16.0
+    },
+    {
+      "volume": "02",
+      "title": "Software Requirements Specification",
+      "source": "docs/volumes/02-software-requirements.md",
+      "pdf": "02-software-requirements.pdf",
+      "source_sha256": "475c8b3a802cbca05ae947526921dce8aa7f12fe64299e3b9bd758b70c53cff0",
+      "pdf_sha256": "6dd4ecfb9bd8d4e9469ab9012d87f862bcd8824d5a88ed8508fb78f8d2fe0c64",
+      "pdf_size_kb": 11.1
+    },
+    {
+      "volume": "03",
+      "title": "System Design Document",
+      "source": "docs/volumes/03-system-design.md",
+      "pdf": "03-system-design.pdf",
+      "source_sha256": "35e24d9bb8a6d9015f7e37bc3070271c21a43385b7b395cf42a0a06ec37de8c8",
+      "pdf_sha256": "30d1103748a85a32c4eac1dbbeca4778b05a25fb18f7b72df9bf8eb16d6137a5",
+      "pdf_size_kb": 27.7
+    },
+    {
+      "volume": "04",
+      "title": "Database Design",
+      "source": "docs/volumes/04-database-design.md",
+      "pdf": "04-database-design.pdf",
+      "source_sha256": "9add972e3ecb9826f324bdddb3b9294125a67c522713de314cf3aaf4f22208dc",
+      "pdf_sha256": "513782f0dd97d9b8d27ab665a4847fd9885a2ad5dc5886dc797796efbd10ee37",
+      "pdf_size_kb": 27.7
+    },
+    {
+      "volume": "05",
+      "title": "REST API Documentation",
+      "source": "docs/volumes/05-rest-api.md",
+      "pdf": "05-rest-api.pdf",
+      "source_sha256": "9a02b34d59acc6a840cded97b745a047ed20c497780e0e53c0a8e2ec4e1d5d23",
+      "pdf_sha256": "0fc551cfe5bc2666bc9dc69b9e3c77cc46caed4b8de2f757f76ac566a7b5c682",
+      "pdf_size_kb": 40.8
+    },
+    {
+      "volume": "06",
+      "title": "AI Design Document",
+      "source": "docs/volumes/06-ai-design.md",
+      "pdf": "06-ai-design.pdf",
+      "source_sha256": "ce5ceebc928a83afc2df0e62bb14b10346da3c733161e632b17952485356d1c0",
+      "pdf_sha256": "3b44be9deaf2b84bf377f7dffe0e029df3072a59d1b4ba77f82b44af7d730851",
+      "pdf_size_kb": 10.0
+    },
+    {
+      "volume": "07",
+      "title": "UI/UX Specification",
+      "source": "docs/volumes/07-ui-ux.md",
+      "pdf": "07-ui-ux.pdf",
+      "source_sha256": "beb32b980f9f86c45cec5c755111ef59c61895d51978e492a5e331c1597a0f23",
+      "pdf_sha256": "d41daed8d176ad97432772131b746da484f0382c47a9f741653ee9fc4a1c2b07",
+      "pdf_size_kb": 7.5
+    },
+    {
+      "volume": "08",
+      "title": "DevOps and Deployment",
+      "source": "docs/volumes/08-devops-deployment.md",
+      "pdf": "08-devops-deployment.pdf",
+      "source_sha256": "4cf5bde5bce4c21a86dbb4fda98744477defd080e8f28097a4b213fe9bd04fbd",
+      "pdf_sha256": "86c25931f790a5358c67e215f97eb724868af4566877f938a4aec0b6f494dde9",
+      "pdf_size_kb": 7.1
+    },
+    {
+      "volume": "09",
+      "title": "Testing Documentation",
+      "source": "docs/volumes/09-testing.md",
+      "pdf": "09-testing.pdf",
+      "source_sha256": "a2219177f3358db7c2de2b0cf2dbd57a8f056acd118e392be73e49fcaf9e7cd8",
+      "pdf_sha256": "a35881d7d3125e57b87b29f3f828d747d3fa5c5eede73c6f05402e0601d3984b",
+      "pdf_size_kb": 7.5
+    },
+    {
+      "volume": "10",
+      "title": "Project Management",
+      "source": "docs/volumes/10-project-management.md",
+      "pdf": "10-project-management.pdf",
+      "source_sha256": "f77ca5cd7096fb9cbb67c449f749596cb8e1331eb6f0b58e48124cfb3adb1e2c",
+      "pdf_sha256": "50b815ea549eb83b174a354f0f990e13e61c0456e2a92dc3f622732860945c42",
+      "pdf_size_kb": 8.2
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+erDiagram
+  Organization ||--o{ Site : has
+  Organization ||--o{ UserMembership : has
+  Site ||--o{ Camera : has
+  Site ||--o{ Zone : has
+  Site ||--o{ EdgeDevice : has
+  Camera ||--o{ DetectionEvent : generates
+  DetectionEvent ||--o{ Alert : triggers
+  Organization ||--o{ AlertRule : defines

@@ -1,0 +1,10 @@
+{
+  "name": "SentinelVision AI",
+  "short_name": "SentinelVision",
+  "description": "Enterprise AI Security Monitoring",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1a365d",
+  "icons": []
+}

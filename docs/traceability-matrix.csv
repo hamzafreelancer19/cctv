@@ -1,0 +1,9 @@
+requirement_type,requirement_id,requirement_title,use_case,api_id,db_entity,test_id,status
+BR,BR-01,Reduce incident response time,UC-ALERT-01,API-ALERT-ACK,DB-Alert,TEST-E2E-001,Planned
+FR,FR-CAM-01,Register camera,UC-CAM-01,API-CAM-LIST,DB-Camera,TEST-API-003,Implemented
+FR,FR-DASH-01,Overview metrics,UC-AUTH-01,API-DASH-SUMMARY,DB-DetectionEvent,TEST-API-006,Implemented
+FR,FR-ALERT-04,Acknowledge alert,UC-ALERT-01,API-ALERT-ACK,DB-Alert,TEST-E2E-001,Planned
+NFR,NFR-01,Event ingest latency,UC-EVT-01,API-EVT-INGEST,DB-DetectionEvent,TEST-PERF-001,Planned
+AI,AI-FACE,Face recognition,UC-ATT-01,API-ATT-LIST,DB-PersonProfile,TEST-AI-001,Planned
+UI,UI-EVT,Event review,UC-EVT-02,API-EVT-REVIEW,DB-DetectionEvent,TEST-E2E-001,Partial
+OPS,OPS-CI,Continuous integration,,,,TEST-API-001,Implemented

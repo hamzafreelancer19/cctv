@@ -1,0 +1,38 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": { "type": "grafana", "uid": "-- Grafana --" },
+        "enable": true,
+        "type": "dashboard"
+      }
+    ]
+  },
+  "title": "SentinelVision Overview",
+  "uid": "sentinelvision-overview",
+  "panels": [
+    {
+      "title": "Camera online",
+      "type": "stat",
+      "targets": [{ "expr": "sentinel_camera_online" }]
+    },
+    {
+      "title": "Notification queue depth",
+      "type": "stat",
+      "targets": [{ "expr": "sentinel_notification_queue_depth" }]
+    },
+    {
+      "title": "Event ingest rate",
+      "type": "timeseries",
+      "targets": [{ "expr": "rate(sentinel_event_ingest_total[5m])" }]
+    },
+    {
+      "title": "Notification failures",
+      "type": "timeseries",
+      "targets": [{ "expr": "rate(sentinel_notification_failures_total[5m])" }]
+    }
+  ],
+  "schemaVersion": 39,
+  "version": 1
+}

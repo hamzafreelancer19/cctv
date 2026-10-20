@@ -1,0 +1,11 @@
+sequenceDiagram
+  participant Edge
+  participant API
+  participant DB
+  participant Rules as AlertRules
+  Edge->>API: POST /events/ingest
+  API->>DB: Validate camera
+  API->>DB: Insert DetectionEvent
+  API->>Rules: evaluate_alert_rules
+  Rules->>DB: Insert Alert optional
+  API-->>Edge: 201 Created

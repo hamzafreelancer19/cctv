@@ -1,0 +1,10 @@
+flowchart LR
+  subgraph premises [CustomerPremises]
+    Cameras[IPCameras] --> Edge[EdgeAIService]
+    Edge --> Buffer[EncryptedEventBuffer]
+  end
+  Edge -->|TLS| API[DjangoRESTAPI]
+  Web[ReactDashboard] --> API
+  API --> PostgreSQL[(PostgreSQL)]
+  API --> ObjectStore[ObjectStorage]
+  API --> Jobs[CeleryRedis]
